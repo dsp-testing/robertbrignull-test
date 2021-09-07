@@ -9,7 +9,7 @@ jobs:
     outputs:
       foo: ${{ steps.foo.outputs.foo }}
     steps:
-     - name: foo
+     - id: foo
        shell: node {0}
        run: |
          const foo = [
