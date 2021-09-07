@@ -6,8 +6,11 @@ on:
 jobs:
   jobA:
     runs-on: ubuntu-latest
+    outputs:
+      foo: ${{ steps.foo.outputs.foo }}
     steps:
-     - shell: node {0}
+     - name: foo
+       shell: node {0}
        run: |
          const foo = [
            [
