@@ -1,4 +1,4 @@
-name: Mask test
+name: Matrix test
 
 on:
   push:
@@ -11,17 +11,17 @@ jobs:
        run: |
          const foo = [
            [
-             123: {
+             {
                foo: "aa",
                bar: "bb"
              }
            ],
            [
-             456: {
+             {
                foo: "cc",
                bar: "dd"
              },
-             789: {
+             {
                foo: "ee",
                bar: "ff"
              }
