@@ -44,3 +44,5 @@ jobs:
      - run: echo "${{ matrix.foo[0].foo }}"
      - run: env
      - run: cat $GITHUB_EVENT_PATH
+     - run: ls -al /home/runner/work/_temp/_github_workflow/
+     - run: find /home/runner/work/_temp/
