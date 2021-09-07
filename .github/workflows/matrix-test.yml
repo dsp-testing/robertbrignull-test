@@ -42,3 +42,5 @@ jobs:
     steps:
      - run: echo "${{ toJSON(matrix.foo) }}"
      - run: echo "${{ matrix.foo[0].foo }}"
+     - run: env
+     - run: cat $GITHUB_EVENT_PATH
