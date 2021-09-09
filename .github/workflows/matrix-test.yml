@@ -6,43 +6,9 @@ on:
 jobs:
   jobA:
     runs-on: ubuntu-latest
-    outputs:
-      foo: ${{ steps.foo.outputs.foo }}
-    steps:
-     - id: foo
-       shell: node {0}
-       run: |
-         const foo = [
-           [
-             {
-               foo: "aa",
-               bar: "bb"
-             }
-           ],
-           [
-             {
-               foo: "cc",
-               bar: "dd"
-             },
-             {
-               foo: "ee",
-               bar: "ff"
-             }
-           ]
-         ];
-         console.log(`::set-output name=foo::${JSON.stringify(foo)}`);
- 
-  jobB:
-    runs-on: ubuntu-latest
-    needs:
-    - jobA
     strategy:
       matrix:
-        foo: ${{ fromJSON(needs.jobA.outputs.foo) }}
+        x: ['foo', 'bar']
     steps:
-     - run: echo "${{ toJSON(matrix.foo) }}"
-     - run: echo "${{ matrix.foo[0].foo }}"
-     - run: env
-     - run: cat $GITHUB_EVENT_PATH
-     - run: ls -al /home/runner/work/_temp/_github_workflow/
-     - run: find /home/runner/work/_temp/
+     - run: echo "${{ matrix.x }}"
+     - run: echo "${{ matrix.x == "bar" }}"
