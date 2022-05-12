@@ -2,10 +2,12 @@ name: Matrix test
 
 on:
   push:
-  pull_request:
 
 jobs:
   jobA:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repos: [ 'a', 'b', 'c' ]
     steps:
-     - run: echo "PR number = ${{ github.event.pull_request.number }}."
+     - run: echo "${{ matrix }}"
