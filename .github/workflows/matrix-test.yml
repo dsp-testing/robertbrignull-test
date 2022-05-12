@@ -10,4 +10,4 @@ jobs:
       matrix:
         repos: [ 'a', 'b', 'c' ]
     steps:
-     - run: echo "${{ matrix }}"
+     - run: echo "${{ toJSON(matrix) }}"
