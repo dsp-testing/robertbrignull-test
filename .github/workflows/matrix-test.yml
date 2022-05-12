@@ -10,7 +10,7 @@ jobs:
       matrix:
         repos: [ 'a', 'b', 'c' ]
     steps:
-     - run: printenv
+      - run: printenv
         name: Output all environment variables
       - run: echo "$github"
         env:
