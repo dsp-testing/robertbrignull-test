@@ -6,43 +6,5 @@ on:
 jobs:
   jobA:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        repos: [ 'a', 'b', 'c' ]
     steps:
-      - run: printenv
-        name: Output all environment variables
-      - run: echo "$github"
-        env:
-          github: ${{ toJson(github) }}
-        name: Output github context
-      - run: echo "$env"
-        env:
-          env: ${{ toJson(env) }}
-        name: Output env context
-      - run: echo "$job"
-        env:
-          job: ${{ toJson(job) }}
-        name: Output job context
-      - run: echo "$steps"
-        env:
-          steps: ${{ toJson(steps) }}
-        name: Output steps context
-      - run: echo "$runner"
-        env:
-          runner: ${{ toJson(runner) }}
-        name: Output runner context
-      - run: echo "$secrets"
-        env:
-          secrets: ${{ toJson(secrets) }}
-        name: Output secrets context
-      - run: echo "$strategy"
-        env:
-          strategy: ${{ toJson(strategy) }}
-        name: Output strategy context
-      - run: echo "$matrix"
-        env:
-          matrix: ${{ toJson(matrix) }}
-        name: Output matrix context
-      - run: cat $GITHUB_EVENT_PATH
-        name: Output $GITHUB_EVENT_PATH
+      - run: df -h
