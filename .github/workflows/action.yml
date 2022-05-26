@@ -1,10 +1,10 @@
-name: Matrix test
+name: Artifact test
 
 on:
   push:
 
 jobs:
-  job1:
+  run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
