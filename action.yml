@@ -1,0 +1,5 @@
+name: 'Test artifacts'
+description: 'Test artifacts'
+runs:
+  using: 'node16'
+  main: 'src/index.js'

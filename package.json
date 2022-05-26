@@ -1,0 +1,10 @@
+{
+  "name": "test-artifacts",
+  "version": "0.0.1",
+  "description": "Test artifact",
+  "main": "./src/index.js",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "axios": "^0.24.0"
+  }
+}
