@@ -2,27 +2,12 @@ name: Artifact test
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - run: env
       - run: |
-          echo "ACTIONS_RUNTIME_URL = $ACTIONS_RUNTIME_URL"
-          echo "GITHUB_RUN_ID = $GITHUB_RUN_ID"
-          echo "ACTIONS_RUNTIME_TOKEN = $ACTIONS_RUNTIME_TOKEN"
-      - uses: ./
-      - run: echo "Hello world" > foo.txt
-      - uses: actions/upload-artifact@v3
-        with:
-          name: foo.txt
-          path: foo.txt
-      - uses: ./
-      - run: echo "Loren ipsum" > bar.txt
-      - uses: actions/upload-artifact@v3
-        with:
-          name: bar.txt
-          path: bar.txt
-      - uses: ./
+          npm -v
+          node -v
