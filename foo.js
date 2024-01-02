@@ -1,2 +1,1 @@
 document.write(window.location);
-
