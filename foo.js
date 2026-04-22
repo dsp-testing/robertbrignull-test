@@ -1,15 +1,24 @@
-document.write(window.location); // alert 1
-document.write(window.location); // alert 2
-document.write(window.location); // alert 3
-document.write(window.location); // alert 4
-document.write(window.location); // alert 5
-document.write(window.location); // alert 6
-document.write(window.location); // alert 7
-document.write(window.location); // alert 8
-document.write(window.location); // alert 9
-document.write(window.location); // alert 10
-document.write(window.location); // alert 11
-document.write(window.location); // alert 12
+function escapeHtml(str) {
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+document.write(escapeHtml(window.location)); // alert 1
+document.write(escapeHtml(window.location)); // alert 2
+document.write(escapeHtml(window.location)); // alert 3
+document.write(escapeHtml(window.location)); // alert 4
+document.write(escapeHtml(window.location)); // alert 5
+document.write(escapeHtml(window.location)); // alert 6
+document.write(escapeHtml(window.location)); // alert 7
+document.write(escapeHtml(window.location)); // alert 8
+document.write(escapeHtml(window.location)); // alert 9
+document.write(escapeHtml(window.location)); // alert 10
+document.write(escapeHtml(window.location)); // alert 11
+document.write(escapeHtml(window.location)); // alert 12
 document.write(window.location); // alert 13
 document.write(window.location); // alert 14
 document.write(window.location); // alert 15
@@ -169,33 +178,33 @@ document.write(window.location); // alert 168
 document.write(window.location); // alert 169
 document.write(window.location); // alert 170
 document.write(window.location); // alert 171
-document.write(window.location); // alert 172
-document.write(window.location); // alert 173
-document.write(window.location); // alert 174
-document.write(window.location); // alert 175
-document.write(window.location); // alert 176
-document.write(window.location); // alert 177
-document.write(window.location); // alert 178
-document.write(window.location); // alert 179
-document.write(window.location); // alert 180
-document.write(window.location); // alert 181
-document.write(window.location); // alert 182
-document.write(window.location); // alert 183
-document.write(window.location); // alert 184
-document.write(window.location); // alert 185
-document.write(window.location); // alert 186
-document.write(window.location); // alert 187
-document.write(window.location); // alert 188
-document.write(window.location); // alert 189
-document.write(window.location); // alert 180
-document.write(window.location); // alert 191
-document.write(window.location); // alert 192
-document.write(window.location); // alert 193
-document.write(window.location); // alert 194
-document.write(window.location); // alert 195
-document.write(window.location); // alert 196
-document.write(window.location); // alert 197
-document.write(window.location); // alert 198
-document.write(window.location); // alert 199
-document.write(window.location); // alert 200
-document.write(window.location); // alert 201
+document.write(escapeHtml(window.location)); // alert 172
+document.write(escapeHtml(window.location)); // alert 173
+document.write(escapeHtml(window.location)); // alert 174
+document.write(escapeHtml(window.location)); // alert 175
+document.write(escapeHtml(window.location)); // alert 176
+document.write(escapeHtml(window.location)); // alert 177
+document.write(escapeHtml(window.location)); // alert 178
+document.write(escapeHtml(window.location)); // alert 179
+document.write(escapeHtml(window.location)); // alert 180
+document.write(escapeHtml(window.location)); // alert 181
+document.write(escapeHtml(window.location)); // alert 182
+document.write(escapeHtml(window.location)); // alert 183
+document.write(escapeHtml(window.location)); // alert 184
+document.write(escapeHtml(window.location)); // alert 185
+document.write(escapeHtml(window.location)); // alert 186
+document.write(escapeHtml(window.location)); // alert 187
+document.write(escapeHtml(window.location)); // alert 188
+document.write(escapeHtml(window.location)); // alert 189
+document.write(escapeHtml(window.location)); // alert 180
+document.write(escapeHtml(window.location)); // alert 191
+document.write(escapeHtml(window.location)); // alert 192
+document.write(escapeHtml(window.location)); // alert 193
+document.write(escapeHtml(window.location)); // alert 194
+document.write(escapeHtml(window.location)); // alert 195
+document.write(escapeHtml(window.location)); // alert 196
+document.write(escapeHtml(window.location)); // alert 197
+document.write(escapeHtml(window.location)); // alert 198
+document.write(escapeHtml(window.location)); // alert 199
+document.write(escapeHtml(window.location)); // alert 200
+document.write(escapeHtml(window.location)); // alert 201
