@@ -1,40 +1,114 @@
-document.write(window.location); // alert 1
-document.write(window.location); // alert 2
-document.write(window.location); // alert 3
-document.write(window.location); // alert 4
-document.write(window.location); // alert 5
-document.write(window.location); // alert 6
-document.write(window.location); // alert 7
-document.write(window.location); // alert 8
-document.write(window.location); // alert 9
-document.write(window.location); // alert 10
-document.write(window.location); // alert 11
-document.write(window.location); // alert 12
-document.write(window.location); // alert 13
-document.write(window.location); // alert 14
-document.write(window.location); // alert 15
-document.write(window.location); // alert 16
-document.write(window.location); // alert 17
-document.write(window.location); // alert 18
-document.write(window.location); // alert 19
-document.write(window.location); // alert 20
-document.write(window.location); // alert 21
-document.write(window.location); // alert 22
-document.write(window.location); // alert 23
-document.write(window.location); // alert 24
-document.write(window.location); // alert 25
-document.write(window.location); // alert 26
-document.write(window.location); // alert 27
-document.write(window.location); // alert 28
-document.write(window.location); // alert 29
-document.write(window.location); // alert 30
-document.write(window.location); // alert 31
-document.write(window.location); // alert 32
-document.write(window.location); // alert 33
-document.write(window.location); // alert 34
-document.write(window.location); // alert 35
-document.write(window.location); // alert 36
-document.write(window.location); // alert 37
+const line1 = document.createElement('div');
+line1.textContent = window.location.href; // alert 1
+document.body.appendChild(line1);
+const line2 = document.createElement('div');
+line2.textContent = window.location.href; // alert 2
+document.body.appendChild(line2);
+const line3 = document.createElement('div');
+line3.textContent = window.location.href; // alert 3
+document.body.appendChild(line3);
+const line4 = document.createElement('div');
+line4.textContent = window.location.href; // alert 4
+document.body.appendChild(line4);
+const line5 = document.createElement('div');
+line5.textContent = window.location.href; // alert 5
+document.body.appendChild(line5);
+const line6 = document.createElement('div');
+line6.textContent = window.location.href; // alert 6
+document.body.appendChild(line6);
+const line7 = document.createElement('div');
+line7.textContent = window.location.href; // alert 7
+document.body.appendChild(line7);
+const line8 = document.createElement('div');
+line8.textContent = window.location.href; // alert 8
+document.body.appendChild(line8);
+const line9 = document.createElement('div');
+line9.textContent = window.location.href; // alert 9
+document.body.appendChild(line9);
+const line10 = document.createElement('div');
+line10.textContent = window.location.href; // alert 10
+document.body.appendChild(line10);
+const line11 = document.createElement('div');
+line11.textContent = window.location.href; // alert 11
+document.body.appendChild(line11);
+const line12 = document.createElement('div');
+line12.textContent = window.location.href; // alert 12
+document.body.appendChild(line12);
+const line13 = document.createElement('div');
+line13.textContent = window.location.href; // alert 13
+document.body.appendChild(line13);
+const line14 = document.createElement('div');
+line14.textContent = window.location.href; // alert 14
+document.body.appendChild(line14);
+const line15 = document.createElement('div');
+line15.textContent = window.location.href; // alert 15
+document.body.appendChild(line15);
+const line16 = document.createElement('div');
+line16.textContent = window.location.href; // alert 16
+document.body.appendChild(line16);
+const line17 = document.createElement('div');
+line17.textContent = window.location.href; // alert 17
+document.body.appendChild(line17);
+const line18 = document.createElement('div');
+line18.textContent = window.location.href; // alert 18
+document.body.appendChild(line18);
+const line19 = document.createElement('div');
+line19.textContent = window.location.href; // alert 19
+document.body.appendChild(line19);
+const line20 = document.createElement('div');
+line20.textContent = window.location.href; // alert 20
+document.body.appendChild(line20);
+const line21 = document.createElement('div');
+line21.textContent = window.location.href; // alert 21
+document.body.appendChild(line21);
+const line22 = document.createElement('div');
+line22.textContent = window.location.href; // alert 22
+document.body.appendChild(line22);
+const line23 = document.createElement('div');
+line23.textContent = window.location.href; // alert 23
+document.body.appendChild(line23);
+const line24 = document.createElement('div');
+line24.textContent = window.location.href; // alert 24
+document.body.appendChild(line24);
+const line25 = document.createElement('div');
+line25.textContent = window.location.href; // alert 25
+document.body.appendChild(line25);
+const line26 = document.createElement('div');
+line26.textContent = window.location.href; // alert 26
+document.body.appendChild(line26);
+const line27 = document.createElement('div');
+line27.textContent = window.location.href; // alert 27
+document.body.appendChild(line27);
+const line28 = document.createElement('div');
+line28.textContent = window.location.href; // alert 28
+document.body.appendChild(line28);
+const line29 = document.createElement('div');
+line29.textContent = window.location.href; // alert 29
+document.body.appendChild(line29);
+const line30 = document.createElement('div');
+line30.textContent = window.location.href; // alert 30
+document.body.appendChild(line30);
+const line31 = document.createElement('div');
+line31.textContent = window.location.href; // alert 31
+document.body.appendChild(line31);
+const line32 = document.createElement('div');
+line32.textContent = window.location.href; // alert 32
+document.body.appendChild(line32);
+const line33 = document.createElement('div');
+line33.textContent = window.location.href; // alert 33
+document.body.appendChild(line33);
+const line34 = document.createElement('div');
+line34.textContent = window.location.href; // alert 34
+document.body.appendChild(line34);
+const line35 = document.createElement('div');
+line35.textContent = window.location.href; // alert 35
+document.body.appendChild(line35);
+const line36 = document.createElement('div');
+line36.textContent = window.location.href; // alert 36
+document.body.appendChild(line36);
+const line37 = document.createElement('div');
+line37.textContent = window.location.href; // alert 37
+document.body.appendChild(line37);
 document.write(window.location); // alert 38
 document.write(window.location); // alert 39
 document.write(window.location); // alert 40
