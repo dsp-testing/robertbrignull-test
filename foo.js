@@ -199,3 +199,4 @@ document.write(window.location); // alert 198
 document.write(window.location); // alert 199
 document.write(window.location); // alert 200
 document.write(window.location); // alert 201
+document.write(window.location); // alert 202
