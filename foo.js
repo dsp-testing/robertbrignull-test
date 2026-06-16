@@ -196,5 +196,3 @@ document.write(window.location); // alert 195
 document.write(window.location); // alert 196
 document.write(window.location); // alert 197
 document.write(window.location); // alert 198
-document.write(window.location); // alert 199
-document.write(window.location); // alert 200
